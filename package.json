@@ -1,0 +1,33 @@
+{
+  "name": "each-done",
+  "version": "0.0.0",
+  "description": "each-async + async-done = each-done",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/floatdrop/each-done.git"
+  },
+  "keywords": [
+    "each",
+    "async",
+    "streams",
+    "promise"
+  ],
+  "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/floatdrop/each-done/issues"
+  },
+  "homepage": "https://github.com/floatdrop/each-done",
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "through2": "^0.6.3"
+  },
+  "dependencies": {
+    "async-done": "^0.4.0",
+    "setimmediate": "^1.0.2"
+  }
+}
